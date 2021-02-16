@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Questionnaire a choix multiple</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!--  Contenu  -->
+
+  <div class="row">
+    <div class="col-xs-12" id="first">
+      <h1>QCM Transversal</h1>
+    
+      <p><h2>A la fin du questionnaire votre score sera affiche et les competences acquises seront evaluees</h2></p>
+      </div>
+      <!--<div class="table-responsive">
+                <table class="table table-hover">
+                    <tr>
+                        <td> -->
+
+
+
+      <!--  Question 1  -->
+    <div class="col-md-6" style="width:100%">
+      <div class="Question">
+       <div class="Q Comp1 Comp5" id="Q1">
+      <p><span>Q 1</span> - Que fait ce programme ?</p>
+      <img src="images/carre1.jpeg" width= "300" height="300">
+
+        <p><a class="true" href="javascript:void(0);" tabindex="5"><span>A</span> - Il trace un carré  de 80 pixels de coté</a></p>
+      <p><a class="false" href="javascript:void(0);" tabindex="5"><span>B</span> - Il trace un rectangle de 80 pixels de largeur et 90 de longueur</a></p>
+      <p><a class="false" href="javascript:void(0);" tabindex="5" ><span>C</span> - Il avance de 80 pixels et tourne de 90°.</a></p>
+      </div>
+      
+     <button type="button" id='S1' class="bouton" onclick="javascript:soumettrereponse('1','2');"> <i class="icon  icon-sort"></i> <span>Valider</span></button>
+      </div>
+    </div>
+
+    <!--  Question 2  -->
+      </td>
+</tr>
+<tr>
+  <td>
+  <div class="col-md-6" >
+    <div class="Question">
+    <div class="Q Comp1 Comp5" id="Q2" style ="display: none;">
+    <p><span>Q 2</span> -  Quelle expression littérale renvoie ce programme?</p>
+    <img src="images/q4.png" width= "450" height="400">
+    <p><a class="true" href="javascript:void(0);" tabindex="1"><span>A</span> - n<sup>2</sup> – (n+1)<sup>2</sup> – (n+2)<sup>2</sup> + (n+3)<sup>2</sup> </a></p>
+    <p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> - n<sup>2</sup>  +(n+1)<sup>2</sup> – (n+2)<sup>2</sup> + (n+3)<sup>2</sup> </a></p>
+    <p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> - n<sup>2</sup> – (a+1)<sup>2</sup> – (n+2)<sup>2</sup> + (n+3)<sup>2</sup> </a></p>
+
+    </div>
+     
+    <button type="button" id='S2' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('2','3');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+    </div>
+  </div>
+
+    </td>
+  </tr>
+  <tr>
+    <td>
+  <!--  Question 3  -->
+<div class="col-md-6">
+  <div class="Question">
+  <div class="Q Comp1 Comp5" id="Q3" style ="display: none;">
+  <p><span>Q 3</span> - Quelle est la valeur de sortie lorsque le nombre entré est 0 ?</p>
+  <img src="images/q4.png" width= "450" height="400">
+
+ <p><a class="false" href="javascript:void(0);" tabindex="1"><span>A</span> - 0</a></p>
+    <p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> - 2</a></p>
+    <p><a class="true" href="javascript:void(0);" tabindex="1"><span>C</span> - 4</a></p>
+  </div>
+   
+  <button type="button" id='S3' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('3','4');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+  </div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+<!--  Question 4  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp1 Comp2 Comp4" id="Q4" style ="display: none;">
+<p><span>Q 4</span> - Si la réponse de l’utilisateur est 80, que renvoie le programme ?</p>
+<img src="images/q2.png" width= "700" height="200">
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>A</span> -  Le prix à payer est de 4,50€.</a></p>
+    <p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> -  Le prix à payer est de 8€.</a></p>
+    <p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> -  Le prix à payer est de 70.</a></p>
+</div>
+ 
+<button type="button" id='S4' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('4','5');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+<!--  Question 5  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp2 Comp5" id="Q5" style ="display: none;">
+<p><span>Q 5</span> - Quel poids sera affiché ? </p>
+<img src="images/q3.png" width= "700" height="200">
+
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>A</span> - on ne peut savoir</a></p>
+  <p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> - 2 kilos</a></p>
+  <p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> - 4900 grammes</a></p>
+
+</div>
+ 
+<button type="button" id='S5' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('5','6');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+  </td>
+</tr>
+<tr>
+<!--  Question 6  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp1 Comp2 Comp4" id="Q6" style ="display: none;">
+  <p><span>Q 6</span> - On considère le pseudo-code suivant: </p>
+  <img src="images/q7.png">
+<p><span> Parmi les différents programmes, lequel correspond à ce pseudo</p>
+
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>A</span><img src="images/r71.png" width= "300" height="100"></a></p>
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>B</span><img src="images/r72.png" width= "300" height="200"></a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span><img src="images/r73.png" width= "300" height="100"></a></p>
+
+</div>
+ 
+<button type="button" id='S6' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('6','7');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+<!--  Question 7  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp1 Comp2" id="Q7" style ="display: none;">
+<p><span>Q 7</span> - Quelle est l’équation de la droite joignant la balle de golf blanche en position (-100,-40) au trou avec le drapeau positionné au point de coordonnée (100,60) ? </p>
+<img src="images/equation.png" width= "450" height="400">
+
+ <p><a class="false" href="javascript:void(0);" tabindex="1"><span>A</span> - f=x+20</a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> - f=0,5x+70</a></p>
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>C</span> - f=0,5x+20</a></p>
+
+</div>
+ 
+<button type="button" id='S7' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('7','8');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+
+
+<!--  Question 8  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp1 Comp3" id="Q8" style ="display: none;">
+
+<p><span>Q 8</span> Le programme suivant trace les vecteurs vitesse d’un objet .
+L’échelle utilisé est 10cm/s, quelle ligne du programme doit on modifier pour représenter les vecteurs vitesse à l’échelle de 15cm/s ? 
+
+<img src="images/prog1.png" width= "700" height="450" >
+
+</p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>A</span> - l.4</a></p>
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>B</span> - l.23</a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> - l.26</a></p>
+
+</div>
+
+<button type="button" id='S8' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('8','9');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+
+<!--  Question 9  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q  Comp3" id="Q9" style ="display: none;">
+<p><span>Q 9</span> - Compléter les pointillés. </p>
+<img src="images/q9.png"  width= "700" height="450">
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>A</span> - Pmg</a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>B</span> - Pmd</a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> - -Pm</a></p>
+</div>
+ 
+<button type="button" id='S9' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('9','10');"><i class="icon  icon-sort"></i> <span>Valider</span></button>
+</div>
+</div>
+
+  </td>
+</tr>
+<tr>
+  <td>
+<!--  Question 10  -->
+<div class="col-md-6">
+<div class="Question">
+<div class="Q Comp1 Comp4" id="Q10" style ="display: none;">
+<img src="images/rob1.png" width= "500" height="500">
+
+<p><span>Q 10</span> - Quelle est la plage de détection de l’obstacle ?</p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>A</span> -  Entre 26 cm et 15cm</a></p>
+<p><a class="true" href="javascript:void(0);" tabindex="1"><span>B</span> -  Entre 15 cm et 19cm</a></p>
+<p><a class="false" href="javascript:void(0);" tabindex="1"><span>C</span> -  Entre 26cm et 19 cm</a></p>
+
+</div>
+   <button type="button" id='S10' style ="display: none;" class="bouton" onclick="javascript:calculerscore();"><i class="icon  icon-sort"></i> <span>Calculer Score</span></button>
+ <!--<button type="button" id='S9' style ="display: none;" class="bouton" onclick="javascript:soumettrereponse('9','10');"><i class="icon  icon-sort"></i> <span>Valider</span></button> -->
+
+</div>
+</div>
+</td>
+</tr>
+<tr>
+  <td>
+
+
+<div class="col-md-6" id="scorewindow" style ="display: none;">
+  <input id="score1" type="hidden" value="10" />
+  <input id="score2" type="hidden" value="10" />
+  <input id="score3" type="hidden" value="10" />
+  <input id="score4" type="hidden" value="10" />
+  <input id="score5" type="hidden" value="10" />
+  <input id="score6" type="hidden" value="10" />
+  <input id="score7" type="hidden" value="10" />
+  <input id="score8" type="hidden" value="10" />
+  <input id="score9" type="hidden" value="10" />
+  <input id="score10" type="hidden" value="10" />
+  <div class="Score">
+  <div class="S" id="S1">
+ 
+
+
+<p><span>- Score</span><h1 id="scoretotal" >90</h1></p>
+    <table>
+      <tbody>
+        <tr>
+          <th >Competence</th>
+          <th >Score</th>
+          <th >Resultat</th>
+        </tr>
+        <tr>
+          <td >C1:prélever et organiser les informations nécessaires à la résolution d’un problème à partir de supports variés</td>
+
+          <td id="scorecomp1"></td>
+
+          <td id="resultacomp1"></td>
+        </tr>
+        <tr>
+          <td >C2:Tester , essayer plusieurs piste de résolution </td>
+
+          <td id="scorecomp2"></td>
+
+          <td id="resultacomp2"></td>
+        </tr>
+        <tr>
+          <td >C3:Adapter, pour traiter un problème </td>
+
+          <td id="scorecomp3"></td>
+
+          <td id="resultacomp3"></td>
+        </tr>
+        <tr>
+          <td >C4: Choisir un cadre (numérique, algébrique, géométrique,..) changer de registre.</td>
+
+          <td id="scorecomp4"></td>
+
+          <td id="resultacomp4"></td>
+        </tr>
+        <tr>
+          <td >C5:Appliquer des techniques et mettre en œuvre des algorithmes</td>
+
+          <td id="scorecomp5"></td>
+
+          <td id="resultacomp5"></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+  </div>
+</div>
+
+  </td>
+</tr>
+
+  </div>
+
+  </div>
+<script src="./js/qcm.js"></script>
+</body></html>
